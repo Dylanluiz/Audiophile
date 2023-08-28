@@ -12,19 +12,19 @@ export default function ProductTitles() {
             id: 1,
             title: 'headphones',
             image: '../../assets/shared/desktop/image-category-thumbnail-headphones.png',
-            route: '/headphones'
+            route: '/products/headphones'
         },
         {
             id: 2,
             title: 'speakers',
             image: '../../assets/shared/desktop/image-category-thumbnail-speakers.png',
-            route: '/speakers'
+            route: '/products/speakers'
         },
         {
             id: 3,
             title: 'earphones',
             image: '../../assets/shared/desktop/image-category-thumbnail-earphones.png',
-            route: 'earphones'
+            route: '/products/earphones'
         }
     ]
 

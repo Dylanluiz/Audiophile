@@ -12,6 +12,7 @@ export default function Login() {
     const {setCreateUser, createUser} = useContext(UserContext)
     const navigator = useNavigate()
     const [isLoading, setIsLoading] = useState(false)
+    const apiKey = 'firebase:authUser:AIzaSyBPIoj-qEYzyrTSNVbsbv4d6wiEwePw29U:[DEFAULT]'
 
     const revealPassword = () => {
         setShowPassword(prev => !prev)
@@ -34,15 +35,15 @@ export default function Login() {
         signInWithEmailAndPassword(auth, email.current.value, password.current.value)
             .then((userCred) => {
                 const user = userCred.user
-                localStorage.setItem('user', JSON.stringify(user))
-                const userStorage = localStorage.getItem('user')
-                const userData = JSON.parse(userStorage)
+                const userSession = sessionStorage.getItem(`${apiKey}`)
+                const userData = JSON.parse(userSession)
                 setCreateUser(prev => {
                     return {
                         ...userData
                     }
                 })
                 monitorAuthState()
+                console.log(userSession)
                 setIsLoading(false)
             })
             .catch((error) => {

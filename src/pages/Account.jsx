@@ -36,7 +36,7 @@ export default function Account() {
                         displayName: `${userInfo.username}`
                     })
                     setTimeout(() => {
-                        localStorage.setItem('user', JSON.stringify(auth.currentUser))
+                        sessionStorage.setItem('firebase:authUser:AIzaSyBPIoj-qEYzyrTSNVbsbv4d6wiEwePw29U:[DEFAULT]', JSON.stringify(auth.currentUser))
                         setUserUpdate(prev => !prev)
                         setIsLoading(false)
                     }, 1000);
