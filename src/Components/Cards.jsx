@@ -22,7 +22,7 @@ export default function Cards() {
         <section className="cards-section">
 
             <div className="zx-speaker card">
-                <img src="../../assets/home/mobile/image-speaker-zx7.jpg" alt="" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fhome%2Fmobile%2Fimage-speaker-zx7.jpg?alt=media&token=e0cc1718-c0ca-46fe-8368-e47fac8c4ca7" alt="" />
                 <div className="zx-speaker-inner-wrapper">
                   <h3>ZX7 Speaker</h3>
                   <Link>See product</Link>  
@@ -34,13 +34,13 @@ export default function Cards() {
                 <picture>
                     <source
                         media="(min-width: 650px)"
-                        srcSet="../../assets/home/tablet/image-earphones-yx1.jpg"
+                        srcSet="https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fhome%2Ftablet%2Fimage-earphones-yx1.jpg?alt=media&token=682df898-9105-49fe-90ff-d4a359fbdb0a"
                     />
                     <source 
                         media="(min-width: 1024px)"
-                        srcSet="../../assets/home/desktop/image-earphones-yx1.jpg"
+                        srcSet="https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fhome%2Fdesktop%2Fimage-earphones-yx1.jpg?alt=media&token=10be1ff7-aa6b-4009-b58b-d38b88218823"
                     />
-                    <img src="../../assets/home/mobile/image-earphones-yx1.jpg" alt="" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fhome%2Fmobile%2Fimage-earphones-yx1.jpg?alt=media&token=66c147b0-fa5d-4e3b-adc8-a89b394d550b" alt="" />
                 </picture>
             </div>
 

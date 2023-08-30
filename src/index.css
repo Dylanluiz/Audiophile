@@ -13,6 +13,10 @@ html, body, *::before, *::after {
     overflow: hidden !important;
 }
 
+.no-scroll-checkout  {
+    overflow: hidden !important;
+}
+
 /* header */
 
 header {
@@ -22,7 +26,7 @@ header {
     background: #000;
     height: 94px;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .drop-down-wrapper {
@@ -36,7 +40,7 @@ header {
     top: 100px;
     max-height: 600px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .drop-down-main-container {
@@ -234,7 +238,7 @@ footer {
 /* hero */ 
 
 .hero {
-    height: 550px;
+    height: 600px;
     background-size: 150%;
     background-position: 50% 35%;
     display: flex;
@@ -245,17 +249,17 @@ footer {
     overflow-x: hidden;
 }
 
+
 .hero img {
     position: absolute;
-    z-index: 0;
     width: 100%;
-    height: 100%;
-    filter: brightness(50%);
-    width: 150%;
-    height: 150%;
-    left: -109px;
-    top: -95px;
+    top: -50px;
+    bottom: 0;
+    margin: auto 0;
+    filter: brightness(60%);
 }
+
+
 
 .new-pr {
     margin: 0;
@@ -469,8 +473,14 @@ footer {
     z-index: 0;
     left: 10px;
     top: -5px;
+    z-index: 1;
 }
 
+
+.password input {
+    position: relative;
+    z-index: 0;
+}
 
 /* loading */
 
@@ -2059,12 +2069,7 @@ input:focus, input:active {
 
     .hero img {
         position: absolute;
-        z-index: 0;
-        filter: brightness(50%);
-        width: 150%;
-        height: 150%;
-        top: -120px;
-        left: -190px;
+        left: 0;
     }
 
     /* categories */
@@ -2310,4 +2315,8 @@ input:focus, input:active {
         width: 50%;
         justify-content: center;
     }
+}
+
+@media (min-width: 1024px) {
+    
 }

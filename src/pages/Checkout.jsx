@@ -1,8 +1,10 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, {useContext, useEffect, useRef, useState} from "react";
 import { useLocation } from "react-router";
 import CartSummary from "../Components/CartSummary";
+import { UserContext } from "../App";
 
 export default function Checkout() {
+    const {showCheckout, setShowCheckout} = useContext(UserContext)
     const location = useLocation()
     const cart = location.state
     const docRef = useRef(null)

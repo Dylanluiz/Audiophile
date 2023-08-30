@@ -5,7 +5,7 @@ import { UserContext } from "../App";
 
 export default function CheckoutScreen({items, grandTotal}) {
     const purchase = items[0].item
-    const {setUserCart, setIsCheckedOut} = useContext(UserContext)
+    const {setUserCart, setIsCheckedOut, showCheckout, setShowCheckout} = useContext(UserContext)
     const {image, slug, price, name} = purchase
     const navigate = useNavigate()
     const purchaseArr = items
@@ -18,6 +18,7 @@ export default function CheckoutScreen({items, grandTotal}) {
         navigate('/')
         setUserCart([])
         setIsCheckedOut(false)
+        setShowCheckout(false)
     }
 
     return (

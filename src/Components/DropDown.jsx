@@ -55,9 +55,9 @@ export default function DropDown() {
 
 
     return (
-        <section className="drop-down-inner-wrapper">                
+        <animated.div style={props} className="drop-down-inner-wrapper">           
           {titlePageEl}
-        </section>
+        </animated.div>
        
     )
 }

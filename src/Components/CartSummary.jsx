@@ -3,7 +3,7 @@ import CheckoutScreen from "./CheckoutScreen";
 import { UserContext } from "../App";
 
 export default function CartSummary({cart}) {
-    const {isCheckedOut, setIsCheckedOut, userCart, setUserCart} = useContext(UserContext)
+    const {isCheckedOut, setIsCheckedOut, userCart, setUserCart, showCheckout, setShowCheckout} = useContext(UserContext)
     const cartItems = cart.cartArr
     const [isCheckingOut, setIsCheckingOut] = useState(false)
     const totalIncVat = cart.totalPrice.toString().split('').map((l, index) => {
@@ -36,6 +36,7 @@ export default function CartSummary({cart}) {
         setTimeout(() => {
             setIsCheckingOut(false)
             setIsCheckedOut(prev => true)
+            setShowCheckout(true)
         }, 1000)
     }
 

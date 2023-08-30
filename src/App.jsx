@@ -25,6 +25,7 @@ export default function App() {
   const [isCheckedOut, setIsCheckedOut] = useState(false)
   const [noItems, setNoItems] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [showCheckout, setShowCheckout] = useState(false)
 
   // useEffect(() => {
   //   const cart = localStorage.getItem('cart')
@@ -77,7 +78,9 @@ export default function App() {
             noItems,
             setNoItems,
             setIsMenuOpen,
-            isMenuOpen
+            isMenuOpen,
+            showCheckout,
+            setShowCheckout
           }
 
   const docBody = document.documentElement
@@ -89,7 +92,15 @@ export default function App() {
         docBody.classList.remove('no-scroll')
       }
   }
-  
+
+  function noScrollCheckout() {
+    if (showCheckout) {
+      docBody.classList.add('no-scroll-checkout')
+    } else if (!showCheckout) {
+      docBody.classList.remove('no-scroll-checkout')
+    }
+  }
+  noScrollCheckout()
   noScoll()
 
   return (
