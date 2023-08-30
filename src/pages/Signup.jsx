@@ -1,6 +1,6 @@
 import React,{useEffect, useRef, useState} from "react";
 import { useTransition, animated } from "@react-spring/web";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword, updateProfile, sendEmailVerification } from "firebase/auth";
 import {auth} from "../../firebase";
 
@@ -49,7 +49,7 @@ export default function Signup() {
                       // sendEmailVerification(auth.currentUser)
                     await updateProfile(auth.currentUser, {
                         displayName: displayName.current.value,
-                        photoURL: '../../assets/placeholder_user.png'
+                        photoURL: 'https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fplaceholder_user.png?alt=media&token=221e6298-0738-4857-8acb-e230652fafef'
                     })
                     setIsLoading(prev => prev = false)
                     navigate('/login')  
@@ -159,10 +159,11 @@ export default function Signup() {
                 
                 <button type='submit'>{isLoading ? 
                 <div className="loading-svg">
-                    <img src="../../assets/Rolling-1s-200px.svg" alt="" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2FRolling-1s-200px.svg?alt=media&token=fa24a331-dae2-429e-9d8b-f7e585ef3a97" alt="" />
                 </div>
                 : 'Sign up'}</button>
             </form>
+            <Link to="/login" className="login-direct">Login in</Link>
         </section>
     )
 }

@@ -37,7 +37,7 @@ export default function LargeProductCard() {
     return (
         <section className="speaker-large-card">
             <img 
-                src="../../assets/removed-bg-speaker.png" 
+                src="https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fremoved-bg-speaker.png?alt=media&token=a440b07d-d7a5-4a41-bac5-fa9551a3745a" 
                 alt="large speaker img and product link" 
                 className="speaker-img-large img-observed-large" />
             <span className="pulse"></span>

@@ -4,15 +4,15 @@ export default [
       slug: "yx1-earphones",
       name: "YX1 Wireless Earphones",
       image: {
-        mobile: "../../assets/product-yx1-earphones/mobile/image-product.jpg",
-        tablet: "../../assets/product-yx1-earphones/tablet/image-product.jpg",
-        desktop: "../../assets/product-yx1-earphones/desktop/image-product.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Fmobile%2Fimage-product.jpg?alt=media&token=fa1a7e5f-fd86-4e87-a1eb-fc3f85d50aa0",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Ftablet%2Fimage-product.jpg?alt=media&token=c433fe01-e059-4235-aa76-9225103f1a08",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Fdesktop%2Fimage-product.jpg?alt=media&token=a30534d4-d18d-4537-9de2-ac156ec1e341"
       },
       category: "earphones",
       categoryImage: {
-        mobile: "../../assets/product-yx1-earphones/mobile/image-category-page-preview.jpg",
-        tablet: "../../assets/product-yx1-earphones/tablet/image-category-page-preview.jpg",
-        desktop: "../../assets/product-yx1-earphones/desktop/image-category-page-preview.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Fmobile%2Fimage-category-page-preview.jpg?alt=media&token=ebebb714-d543-4e78-9a92-dc63e22fa3cc",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Ftablet%2Fimage-category-page-preview.jpg?alt=media&token=8c155618-3402-4d99-bdab-a39f70147088",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Fdesktop%2Fimage-category-page-preview.jpg?alt=media&token=6fdc1ad6-d56c-48fa-af48-18dd30feabbd"
       },
       new: true,
       price: 599,
@@ -42,19 +42,19 @@ export default [
       ],
       gallery: {
         first: {
-          mobile: "../../assets/product-yx1-earphones/mobile/image-gallery-1.jpg",
-          tablet: "../../assets/product-yx1-earphones/tablet/image-gallery-1.jpg",
-          desktop: "../../assets/product-yx1-earphones/desktop/image-gallery-1.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Fmobile%2Fimage-gallery-1.jpg?alt=media&token=558c09c4-65c5-49cb-a981-673396fe66af",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Ftablet%2Fimage-gallery-1.jpg?alt=media&token=9b72b7cf-2b21-40cb-86ba-510b212ac67b",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Fdesktop%2Fimage-gallery-1.jpg?alt=media&token=ceadbaed-4b80-4e25-b0b6-2de992fd9ce2"
         },
         second: {
-          mobile: "../../assets/product-yx1-earphones/mobile/image-gallery-2.jpg",
-          tablet: "../../assets/product-yx1-earphones/tablet/image-gallery-2.jpg",
-          desktop: "../../assets/product-yx1-earphones/desktop/image-gallery-2.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Fmobile%2Fimage-gallery-2.jpg?alt=media&token=023adc37-e20f-471b-b8ac-966d7af6e9e0",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Ftablet%2Fimage-gallery-2.jpg?alt=media&token=684888ae-541d-4227-be40-98b78a725c7c",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Fdesktop%2Fimage-gallery-2.jpg?alt=media&token=ef9e0fb3-1acd-4e0e-ae05-65f98ae3c0a3"
         },
         third: {
-          mobile: "../../assets/product-yx1-earphones/mobile/image-gallery-3.jpg",
-          tablet: "../../assets/product-yx1-earphones/tablet/image-gallery-3.jpg",
-          desktop: "../../assets/product-yx1-earphones/desktop/image-gallery-3.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Fmobile%2Fimage-gallery-3.jpg?alt=media&token=1ea115f8-80ef-43f1-b2f5-b3740a6d38b3",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Ftablet%2Fimage-gallery-3.jpg?alt=media&token=e0bd0b71-bac1-4506-9653-ff633009c831",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-yx1-earphones%2Fdesktop%2Fimage-gallery-3.jpg?alt=media&token=4a40ab26-fdae-472a-97fd-bf211ab0e8dc"
         }
       },
       others: [
@@ -62,27 +62,27 @@ export default [
           slug: "xx99-mark-one-headphones",
           name: "XX99 Mark I",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=2128d072-e9c1-4442-817e-6c3590c472f7",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=946e4c67-8e56-453f-b237-d283f8987583",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=fc1e41e1-a01e-4304-9803-fb2d19d43c87"
           }
         },
         {
           slug: "xx59-headphones",
           name: "XX59",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx59-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx59-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx59-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx59-headphones.jpg?alt=media&token=2c0441ac-e4e4-4f5b-b28e-caebd87eeafd",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx59-headphones.jpg?alt=media&token=76129392-cba0-4042-8a3b-98c9adaf23d6",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx59-headphones.jpg?alt=media&token=4a8aea95-18ad-4504-a9df-1560b9097954"
           }
         },
         {
           slug: "zx9-speaker",
           name: "ZX9 Speaker",
           image: {
-            mobile: "../../assets/shared/mobile/image-zx9-speaker.jpg",
-            tablet: "../../assets/shared/tablet/image-zx9-speaker.jpg",
-            desktop: "../../assets/shared/desktop/image-zx9-speaker.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-zx9-speaker.jpg?alt=media&token=57e1b9e3-7128-4df1-8eab-de640cf443d2",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-zx9-speaker.jpg?alt=media&token=73c4888f-b013-428c-a545-455196b1792a",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-zx9-speaker.jpg?alt=media&token=0e9095e2-7566-4bc3-9170-ec2d6642fc73"
           }
         }
       ]
@@ -92,15 +92,15 @@ export default [
       slug: "xx59-headphones",
       name: "XX59 Headphones",
       image: {
-        mobile: "../../assets/product-xx59-headphones/mobile/image-product.jpg",
-        tablet: "../../assets/product-xx59-headphones/tablet/image-product.jpg",
-        desktop: "../../assets/product-xx59-headphones/desktop/image-product.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Fmobile%2Fimage-product.jpg?alt=media&token=5e476988-7c32-4213-82dc-2eca51324041",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Ftablet%2Fimage-product.jpg?alt=media&token=307d0b67-0563-49de-a41a-535093eaf96f",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Fdesktop%2Fimage-product.jpg?alt=media&token=2840cadb-0193-43f5-b17a-ac906ecc96f5"
       },
       category: "headphones",
       categoryImage: {
-        mobile: "../../assets/product-xx59-headphones/mobile/image-category-page-preview.jpg",
-        tablet: "../../assets/product-xx59-headphones/tablet/image-category-page-preview.jpg",
-        desktop: "../../assets/product-xx59-headphones/desktop/image-category-page-preview.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Fmobile%2Fimage-category-page-preview.jpg?alt=media&token=04e00a6a-c305-4802-83a0-58b2802992e9",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Ftablet%2Fimage-category-page-preview.jpg?alt=media&token=9ecbd28f-9a55-4d9a-a31d-6de0157be833",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Fdesktop%2Fimage-category-page-preview.jpg?alt=media&token=a5527d1d-871a-4a79-a0ac-3fe7ae5d3016"
       },
       new: false,
       price: 899,
@@ -126,19 +126,19 @@ export default [
       ],
       gallery: {
         first: {
-          mobile: "../../assets/product-xx59-headphones/mobile/image-gallery-1.jpg",
-          tablet: "../../assets/product-xx59-headphones/tablet/image-gallery-1.jpg",
-          desktop: "../../assets/product-xx59-headphones/desktop/image-gallery-1.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Fmobile%2Fimage-gallery-1.jpg?alt=media&token=7037a004-b140-40f6-92c5-b72790d848c9",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Ftablet%2Fimage-gallery-1.jpg?alt=media&token=a7a30866-19c4-4620-9685-64a504a773bb",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Fdesktop%2Fimage-gallery-1.jpg?alt=media&token=ff6a6fbf-4d4e-41ba-b559-b13d12424754"
         },
         second: {
-          mobile: "../../assets/product-xx59-headphones/mobile/image-gallery-2.jpg",
-          tablet: "../../assets/product-xx59-headphones/tablet/image-gallery-2.jpg",
-          desktop: "../../assets/product-xx59-headphones/desktop/image-gallery-2.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Fmobile%2Fimage-gallery-2.jpg?alt=media&token=d9df3f9b-21e5-4cb7-8c5a-d3f766170ce3",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Ftablet%2Fimage-gallery-2.jpg?alt=media&token=7657cb05-3bdd-4b77-85df-e40896ba5798",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Fdesktop%2Fimage-gallery-2.jpg?alt=media&token=4d9b02c3-ffe4-4e72-a557-03e07880f222"
         },
         third: {
-          mobile: "../../assets/product-xx59-headphones/mobile/image-gallery-3.jpg",
-          tablet: "../../assets/product-xx59-headphones/tablet/image-gallery-3.jpg",
-          desktop: "../../assets/product-xx59-headphones/desktop/image-gallery-3.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Fmobile%2Fimage-gallery-3.jpg?alt=media&token=049e5f87-c340-4197-be0b-91077e3edde8",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Ftablet%2Fimage-gallery-3.jpg?alt=media&token=08021b47-50f2-4c5c-94ff-489069b757c4",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx59-headphones%2Fdesktop%2Fimage-gallery-3.jpg?alt=media&token=cde9eb9a-4db8-4853-9500-8e70d8d3c22c"
         }
       },
       others: [
@@ -146,27 +146,27 @@ export default [
           slug: "xx99-mark-two-headphones",
           name: "XX99 Mark II",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx99-mark-two-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx99-mark-two-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx99-mark-two-headphones.jpg?alt=media&token=921e3178-e7a7-4c41-9da1-206b820419b4",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx99-mark-two-headphones.jpg?alt=media&token=6d5dbc0a-6d16-426e-9641-7f0d1a8130b7",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx99-mark-two-headphones.jpg?alt=media&token=c141a51e-ede5-49d0-b946-26111b84b1c1"
           }
         },
         {
           slug: "xx99-mark-one-headphones",
           name: "XX99 Mark I",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=2128d072-e9c1-4442-817e-6c3590c472f7",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=946e4c67-8e56-453f-b237-d283f8987583",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=fc1e41e1-a01e-4304-9803-fb2d19d43c87"
           }
         },
         {
           slug: "zx9-speaker",
           name: "ZX9 Speaker",
           image: {
-            mobile: "../../assets/shared/mobile/image-zx9-speaker.jpg",
-            tablet: "../../assets/shared/tablet/image-zx9-speaker.jpg",
-            desktop: "../../assets/shared/desktop/image-zx9-speaker.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-zx9-speaker.jpg?alt=media&token=57e1b9e3-7128-4df1-8eab-de640cf443d2",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-zx9-speaker.jpg?alt=media&token=73c4888f-b013-428c-a545-455196b1792a",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-zx9-speaker.jpg?alt=media&token=0e9095e2-7566-4bc3-9170-ec2d6642fc73"
           }
         }
       ]
@@ -176,15 +176,15 @@ export default [
       slug: "xx99-mark-one-headphones",
       name: "XX99 Mark I Headphones",
       image: {
-        mobile: "../../assets/product-xx99-mark-one-headphones/mobile/image-product.jpg",
-        tablet: "../../assets/product-xx99-mark-one-headphones/tablet/image-product.jpg",
-        desktop: "../../assets/product-xx99-mark-one-headphones/desktop/image-product.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Fmobile%2Fimage-product.jpg?alt=media&token=79ef718f-3556-4b6d-8282-b491b74e1dd4",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Ftablet%2Fimage-product.jpg?alt=media&token=5d62b753-2585-44d3-b4e0-cefbce535426",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Fdesktop%2Fimage-product.jpg?alt=media&token=915ac131-515e-4a90-8e36-a651ea9e6999"
       },
       category: "headphones",
       categoryImage: {
-        mobile: "../../assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg",
-        tablet: "../../assets/product-xx99-mark-one-headphones/tablet/image-category-page-preview.jpg",
-        desktop: "../../assets/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Fmobile%2Fimage-category-page-preview.jpg?alt=media&token=5c27a62c-d19c-4154-9a93-8b3816956472",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Ftablet%2Fimage-category-page-preview.jpg?alt=media&token=15f9d03a-62bf-482b-8f38-93ce075fc38a",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Fdesktop%2Fimage-category-page-preview.jpg?alt=media&token=22cb51ac-96de-43dc-bdeb-cbcd6a287949"
       },
       new: false,
       price: 1750,
@@ -210,19 +210,19 @@ export default [
       ],
       gallery: {
         first: {
-          mobile: "../../assets/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg",
-          tablet: "../../assets/product-xx99-mark-one-headphones/tablet/image-gallery-1.jpg",
-          desktop: "../../assets/product-xx99-mark-one-headphones/desktop/image-gallery-1.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Fmobile%2Fimage-gallery-1.jpg?alt=media&token=97dbf63b-ac71-4bba-9eb4-8ff21023b0af",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Ftablet%2Fimage-gallery-1.jpg?alt=media&token=7764de2d-8346-4827-8b1c-770fbc79920b",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Fdesktop%2Fimage-gallery-1.jpg?alt=media&token=406d6e6b-ca2b-4ef4-a02d-c067a18d1983"
         },
         second: {
-          mobile: "../../assets/product-xx99-mark-one-headphones/mobile/image-gallery-2.jpg",
-          tablet: "../../assets/product-xx99-mark-one-headphones/tablet/image-gallery-2.jpg",
-          desktop: "../../assets/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Fmobile%2Fimage-gallery-2.jpg?alt=media&token=77fbb7ce-d969-413c-8978-93180957db2f",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Ftablet%2Fimage-gallery-2.jpg?alt=media&token=b58af3f4-62ea-4757-87c6-4e3e32eb9049",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Fdesktop%2Fimage-gallery-2.jpg?alt=media&token=1dff6e6b-6b46-47c7-8f06-c32e177a2b54"
         },
         third: {
-          mobile: "../../assets/product-xx99-mark-one-headphones/mobile/image-gallery-3.jpg",
-          tablet: "../../assets/product-xx99-mark-one-headphones/tablet/image-gallery-3.jpg",
-          desktop: "../../assets/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Fmobile%2Fimage-gallery-3.jpg?alt=media&token=d72b01f0-ad84-45d6-b7b8-185cf46151d3",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Ftablet%2Fimage-gallery-3.jpg?alt=media&token=73d5af06-3c6b-41eb-a437-7b23e5815062",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-one-headphones%2Fdesktop%2Fimage-gallery-3.jpg?alt=media&token=094dfdfa-3310-44ba-9896-2c6d440d0062"
         }
       },
       others: [
@@ -230,27 +230,27 @@ export default [
           slug: "xx99-mark-two-headphones",
           name: "XX99 Mark II",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx99-mark-two-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx99-mark-two-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx99-mark-two-headphones.jpg?alt=media&token=921e3178-e7a7-4c41-9da1-206b820419b4",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx99-mark-two-headphones.jpg?alt=media&token=6d5dbc0a-6d16-426e-9641-7f0d1a8130b7",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx99-mark-two-headphones.jpg?alt=media&token=c141a51e-ede5-49d0-b946-26111b84b1c1"
           }
         },
         {
           slug: "xx59-headphones",
           name: "XX59",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx59-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx59-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx59-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx59-headphones.jpg?alt=media&token=2c0441ac-e4e4-4f5b-b28e-caebd87eeafd",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx59-headphones.jpg?alt=media&token=76129392-cba0-4042-8a3b-98c9adaf23d6",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx59-headphones.jpg?alt=media&token=4a8aea95-18ad-4504-a9df-1560b9097954"
           }
         },
         {
           slug: "zx9-speaker",
           name: "ZX9 Speaker",
           image: {
-            mobile: "../../assets/shared/mobile/image-zx9-speaker.jpg",
-            tablet: "../../assets/shared/tablet/image-zx9-speaker.jpg",
-            desktop: "../../assets/shared/desktop/image-zx9-speaker.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-zx9-speaker.jpg?alt=media&token=57e1b9e3-7128-4df1-8eab-de640cf443d2",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-zx9-speaker.jpg?alt=media&token=73c4888f-b013-428c-a545-455196b1792a",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-zx9-speaker.jpg?alt=media&token=0e9095e2-7566-4bc3-9170-ec2d6642fc73"
           }
         }
       ]
@@ -260,15 +260,15 @@ export default [
       slug: "xx99-mark-two-headphones",
       name: "XX99 Mark II Headphones",
       image: {
-        mobile: "../../assets/product-xx99-mark-two-headphones/mobile/image-product.jpg",
-        tablet: "../../assets/product-xx99-mark-two-headphones/tablet/image-product.jpg",
-        desktop: "../../assets/product-xx99-mark-two-headphones/desktop/image-product.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Fmobile%2Fimage-product.jpg?alt=media&token=9284753e-0f51-4dac-ad93-b68ed6e6d41f",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Ftablet%2Fimage-product.jpg?alt=media&token=808d6247-27d1-4296-a210-c40d46e2dcfc",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Fdesktop%2Fimage-product.jpg?alt=media&token=e5547aad-566e-4b2c-8f7a-acc65bbca7a0"
       },
       category: "headphones",
       categoryImage: {
-        mobile: "../../assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg",
-        tablet: "../../assets/product-xx99-mark-two-headphones/tablet/image-category-page-preview.jpg",
-        desktop: "../../assets/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Fmobile%2Fimage-category-page-preview.jpg?alt=media&token=582ce263-1a23-4ae0-a3fc-08b4ee12e3d5",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Ftablet%2Fimage-category-page-preview.jpg?alt=media&token=01d2db4e-1f48-4ca4-a9af-a73c4f7a11cf",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Fdesktop%2Fimage-category-page-preview.jpg?alt=media&token=d646c1df-6a90-4a45-9ba6-fd4a6d31c1f0"
       },
       new: true,
       price: 2999,
@@ -298,19 +298,19 @@ export default [
       ],
       gallery: {
         first: {
-          mobile: "../../assets/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg",
-          tablet: "../../assets/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg",
-          desktop: "../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Fmobile%2Fimage-gallery-1.jpg?alt=media&token=013074ec-14dd-48ec-bc3e-a37ee4b65eee",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Ftablet%2Fimage-gallery-1.jpg?alt=media&token=e9ec05fe-cd78-4f02-b7a6-a3f533149be9",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Fdesktop%2Fimage-gallery-1.jpg?alt=media&token=8eaea21d-bbb2-40e8-89c9-7106b976c40f"
         },
         second: {
-          mobile: "../../assets/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg",
-          tablet: "../../assets/product-xx99-mark-two-headphones/tablet/image-gallery-2.jpg",
-          desktop: "../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Fmobile%2Fimage-gallery-2.jpg?alt=media&token=5517a4d8-56cc-4743-8079-a472b8ecfab6",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Ftablet%2Fimage-gallery-2.jpg?alt=media&token=2c935115-c542-4a77-8f40-122e55e54695",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Fdesktop%2Fimage-gallery-2.jpg?alt=media&token=7ca04575-ebf6-4c67-a2c7-181d07c66720"
         },
         third: {
-          mobile: "../../assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg",
-          tablet: "../../assets/product-xx99-mark-two-headphones/tablet/image-gallery-3.jpg",
-          desktop: "../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Fmobile%2Fimage-gallery-3.jpg?alt=media&token=9a0f464d-26c9-460b-855d-011f18c39bc7",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Ftablet%2Fimage-gallery-3.jpg?alt=media&token=85ba198d-9491-4e85-b31c-f71222b9f3d3",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-xx99-mark-two-headphones%2Fdesktop%2Fimage-gallery-3.jpg?alt=media&token=7bbb3f3a-d83b-49ac-9905-dd4563baf38c"
         }
       },
       others: [
@@ -318,27 +318,27 @@ export default [
           slug: "xx99-mark-one-headphones",
           name: "XX99 Mark I",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=2128d072-e9c1-4442-817e-6c3590c472f7",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=946e4c67-8e56-453f-b237-d283f8987583",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=fc1e41e1-a01e-4304-9803-fb2d19d43c87"
           }
         },
         {
           slug: "xx59-headphones",
           name: "XX59",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx59-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx59-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx59-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx59-headphones.jpg?alt=media&token=2c0441ac-e4e4-4f5b-b28e-caebd87eeafd",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx59-headphones.jpg?alt=media&token=76129392-cba0-4042-8a3b-98c9adaf23d6",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx59-headphones.jpg?alt=media&token=4a8aea95-18ad-4504-a9df-1560b9097954"
           }
         },
         {
           slug: "zx9-speaker",
           name: "ZX9 Speaker",
           image: {
-            mobile: "./assets/shared/mobile/image-zx9-speaker.jpg",
-            tablet: "../../assets/shared/tablet/image-zx9-speaker.jpg",
-            desktop: "../../assets/shared/desktop/image-zx9-speaker.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-zx9-speaker.jpg?alt=media&token=57e1b9e3-7128-4df1-8eab-de640cf443d2",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-zx9-speaker.jpg?alt=media&token=73c4888f-b013-428c-a545-455196b1792a",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-zx9-speaker.jpg?alt=media&token=0e9095e2-7566-4bc3-9170-ec2d6642fc73"
           }
         }
       ]
@@ -348,15 +348,15 @@ export default [
       slug: "zx7-speaker",
       name: "ZX7 Speaker",
       image: {
-        mobile: "../../assets/product-zx7-speaker/mobile/image-product.jpg",
-        tablet: "../../assets/product-zx7-speaker/tablet/image-product.jpg",
-        desktop: "../../assets/product-zx7-speaker/desktop/image-product.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Fmobile%2Fimage-product.jpg?alt=media&token=e98862a6-a57d-4b84-963c-9dadcc224e80",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Ftablet%2Fimage-product.jpg?alt=media&token=19032f3d-3e78-4937-a56f-7beb686eeef9",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Fdesktop%2Fimage-product.jpg?alt=media&token=f8fa6f6d-06aa-474a-be64-bbbb510d2f71"
       },
       category: "speakers",
       categoryImage: {
-        mobile: "../../assets/product-zx7-speaker/mobile/image-category-page-preview.jpg",
-        tablet: "../../assets/product-zx7-speaker/tablet/image-category-page-preview.jpg",
-        desktop: "../../assets/product-zx7-speaker/desktop/image-category-page-preview.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Fmobile%2Fimage-category-page-preview.jpg?alt=media&token=8b76dcd2-9bc5-496d-876b-ab83e51087db",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Ftablet%2Fimage-category-page-preview.jpg?alt=media&token=6aea5c57-eba1-4008-8ab0-e3af4cf55a26",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Fdesktop%2Fimage-category-page-preview.jpg?alt=media&token=43faa497-853e-4dac-9e2a-37c3a2e3b421"
       },
       new: false,
       price: 3500,
@@ -386,19 +386,19 @@ export default [
       ],
       gallery: {
         first: {
-          mobile: "../../assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
-          tablet: "../../assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
-          desktop: "../../assets/product-zx7-speaker/desktop/image-gallery-1.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Fmobile%2Fimage-gallery-1.jpg?alt=media&token=dfcf942b-b55f-4f27-a89f-87aa98a9ac0e",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Ftablet%2Fimage-gallery-1.jpg?alt=media&token=21f3bf76-0f73-42f7-8dff-694dbb088835",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Fdesktop%2Fimage-gallery-1.jpg?alt=media&token=881435a8-44e3-4e47-8f30-a6fa4e8fd2f2"
         },
         second: {
-          mobile: "../../assets/product-zx7-speaker/mobile/image-gallery-2.jpg",
-          tablet: "../../assets/product-zx7-speaker/tablet/image-gallery-2.jpg",
-          desktop: "../../assets/product-zx7-speaker/desktop/image-gallery-2.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Fmobile%2Fimage-gallery-2.jpg?alt=media&token=71b0d778-44c8-4e70-8104-a4cdbc5e7482",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Ftablet%2Fimage-gallery-2.jpg?alt=media&token=c0f6d008-586f-4bab-9e2c-0290d0f02a47",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Fdesktop%2Fimage-gallery-2.jpg?alt=media&token=1c906797-9178-4cf3-aa07-a7f3267d633e"
         },
         third: {
-          mobile: "../../assets/product-zx7-speaker/mobile/image-gallery-3.jpg",
-          tablet: "../../assets/product-zx7-speaker/tablet/image-gallery-3.jpg",
-          desktop: "../../assets/product-zx7-speaker/desktop/image-gallery-3.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Fmobile%2Fimage-gallery-3.jpg?alt=media&token=0eb45e98-6894-44a0-a159-fbdb4c26555c",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Ftablet%2Fimage-gallery-3.jpg?alt=media&token=4c69e119-1ef1-4a36-ae96-2a318c097bbd",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx7-speaker%2Fdesktop%2Fimage-gallery-3.jpg?alt=media&token=62f42867-e701-45d9-aac1-46475d9dd778"
         }
       },
       others: [
@@ -406,27 +406,27 @@ export default [
           slug: "zx9-speaker",
           name: "ZX9 Speaker",
           image: {
-            mobile: "../../assets/shared/mobile/image-zx9-speaker.jpg",
-            tablet: "../../assets/shared/tablet/image-zx9-speaker.jpg",
-            desktop: "../../assets/shared/desktop/image-zx9-speaker.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-zx9-speaker.jpg?alt=media&token=57e1b9e3-7128-4df1-8eab-de640cf443d2",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-zx9-speaker.jpg?alt=media&token=73c4888f-b013-428c-a545-455196b1792a",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-zx9-speaker.jpg?alt=media&token=0e9095e2-7566-4bc3-9170-ec2d6642fc73"
           }
         },
         {
           slug: "xx99-mark-one-headphones",
           name: "XX99 Mark I",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=2128d072-e9c1-4442-817e-6c3590c472f7",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=946e4c67-8e56-453f-b237-d283f8987583",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=fc1e41e1-a01e-4304-9803-fb2d19d43c87"
           }
         },
         {
           slug: "xx59-headphones",
           name: "XX59",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx59-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx59-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx59-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx59-headphones.jpg?alt=media&token=2c0441ac-e4e4-4f5b-b28e-caebd87eeafd",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx59-headphones.jpg?alt=media&token=76129392-cba0-4042-8a3b-98c9adaf23d6",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx59-headphones.jpg?alt=media&token=4a8aea95-18ad-4504-a9df-1560b9097954"
           }
         }
       ]
@@ -436,15 +436,15 @@ export default [
       slug: "zx9-speaker",
       name: "ZX9 Speaker",
       image: {
-        mobile: "../../assets/product-zx9-speaker/mobile/image-product.jpg",
-        tablet: "../../assets/product-zx9-speaker/tablet/image-product.jpg",
-        desktop: "../../assets/product-zx9-speaker/desktop/image-product.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Fmobile%2Fimage-product.jpg?alt=media&token=760390d1-6c2a-476f-ae2a-f2843c67b446",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Ftablet%2Fimage-product.jpg?alt=media&token=d15fe7fe-32df-4de9-909c-52253a8e7314",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Fdesktop%2Fimage-product.jpg?alt=media&token=7c27c301-f968-4f53-8efd-94d2d4d5aaee"
       },
       category: "speakers",
       categoryImage: {
-        mobile: "../../assets/product-zx9-speaker/mobile/image-category-page-preview.jpg",
-        tablet: "../../assets/product-zx9-speaker/tablet/image-category-page-preview.jpg",
-        desktop: "../../assets/product-zx9-speaker/desktop/image-category-page-preview.jpg"
+        mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Fmobile%2Fimage-category-page-preview.jpg?alt=media&token=da0cacc4-eaf6-4bb5-865e-4b214d9c152e",
+        tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Ftablet%2Fimage-category-page-preview.jpg?alt=media&token=e7a70093-40bd-41be-a76c-37b28e4a42bc",
+        desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Fdesktop%2Fimage-category-page-preview.jpg?alt=media&token=15c29932-3ce8-4040-b721-1971f10d398c"
       },
       new: true,
       price: 4500,
@@ -474,19 +474,19 @@ export default [
       ],
       gallery: {
         first: {
-          mobile: "../../assets/product-zx9-speaker/mobile/image-gallery-1.jpg",
-          tablet: "../../assets/product-zx9-speaker/tablet/image-gallery-1.jpg",
-          desktop: "../../assets/product-zx9-speaker/desktop/image-gallery-1.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Fmobile%2Fimage-gallery-1.jpg?alt=media&token=c2fae80f-6d0a-4cf0-b538-f3cf3b56dd97",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Ftablet%2Fimage-gallery-1.jpg?alt=media&token=1ffe0ef3-512a-41f1-8ef5-c19c08ad1d3a",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Fdesktop%2Fimage-gallery-1.jpg?alt=media&token=63834ad2-b0b8-42d2-b50c-dfa7c2ecfa79"
         },
         second: {
-          mobile: "../../assets/product-zx9-speaker/mobile/image-gallery-2.jpg",
-          tablet: "../../assets/product-zx9-speaker/tablet/image-gallery-2.jpg",
-          desktop: "../../assets/product-zx9-speaker/desktop/image-gallery-2.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Fmobile%2Fimage-gallery-2.jpg?alt=media&token=fc7c2a59-9425-42b9-b868-101974c6d414",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Ftablet%2Fimage-gallery-2.jpg?alt=media&token=02cd6860-e97d-4ef0-a1d7-9a038c43aecc",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Fdesktop%2Fimage-gallery-2.jpg?alt=media&token=575b343f-ccfe-42c4-8a82-29207b02ecb9"
         },
         third: {
-          mobile: "../../assets/product-zx9-speaker/mobile/image-gallery-3.jpg",
-          tablet: "../../assets/product-zx9-speaker/tablet/image-gallery-3.jpg",
-          desktop: "../../assets/product-zx9-speaker/desktop/image-gallery-3.jpg"
+          mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Fmobile%2Fimage-gallery-3.jpg?alt=media&token=0d62798d-004c-4ad3-86e2-cecd3e57609d",
+          tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Ftablet%2Fimage-gallery-3.jpg?alt=media&token=773f35b3-d430-490e-b5e6-2ece3f9ed7c9",
+          desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fproduct-zx9-speaker%2Fdesktop%2Fimage-gallery-3.jpg?alt=media&token=cb264cbe-22d5-4a7e-ad64-aee744560863"
         }
       },
       others: [
@@ -494,27 +494,27 @@ export default [
           slug: "zx7-speaker",
           name: "ZX7 Speaker",
           image: {
-            mobile: "../../assets/shared/mobile/image-zx7-speaker.jpg",
-            tablet: "../../assets/shared/tablet/image-zx7-speaker.jpg",
-            desktop: "../../assets/shared/desktop/image-zx7-speaker.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-zx7-speaker.jpg?alt=media&token=f0ba7e84-3199-48a9-961c-0d56184f0ffc",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-zx7-speaker.jpg?alt=media&token=6680b61d-2120-4cee-ae50-95297a3337a2",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-zx7-speaker.jpg?alt=media&token=d94ffead-ea57-4724-aa8f-be2a9c230c5c"
           }
         },
         {
           slug: "xx99-mark-one-headphones",
           name: "XX99 Mark I",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=2128d072-e9c1-4442-817e-6c3590c472f7",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=946e4c67-8e56-453f-b237-d283f8987583",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx99-mark-one-headphones.jpg?alt=media&token=fc1e41e1-a01e-4304-9803-fb2d19d43c87"
           }
         },
         {
           slug: "xx59-headphones",
           name: "XX59",
           image: {
-            mobile: "../../assets/shared/mobile/image-xx59-headphones.jpg",
-            tablet: "../../assets/shared/tablet/image-xx59-headphones.jpg",
-            desktop: "../../assets/shared/desktop/image-xx59-headphones.jpg"
+            mobile: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fmobile%2Fimage-xx59-headphones.jpg?alt=media&token=2c0441ac-e4e4-4f5b-b28e-caebd87eeafd",
+            tablet: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Ftablet%2Fimage-xx59-headphones.jpg?alt=media&token=76129392-cba0-4042-8a3b-98c9adaf23d6",
+            desktop: "https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-xx59-headphones.jpg?alt=media&token=4a8aea95-18ad-4504-a9df-1560b9097954"
           }
         }
       ]

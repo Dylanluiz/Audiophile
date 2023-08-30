@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router";
 import data from "../data";
 import ScrollToTop from "../Components/scrollToTop";
 import { Link } from "react-router-dom";
 import Suggested from "../Components/Suggested";
+import { UserContext } from "../App";
+import { useTransition, animated } from "@react-spring/web";
 
 export default function Product() {
     const {id} = useParams()
@@ -11,6 +13,14 @@ export default function Product() {
     const pathname = location.state?.pathname
     const [count, setCount] = useState(1)
     const [isIntersecting, setIsIntersecting] = useState(false)
+    const {userCart, setUserCart} = useContext(UserContext)
+    const [addedToCart, setAddedToCart] = useState(false)
+    const addedTransition = useTransition(addedToCart, {
+        from: {opacity: 0},
+        enter: {opacity: 1},
+        leave: {opacity: 0}
+    })
+
 
     const product = data.map(prod => {
         if (prod.id === Number(id)) {
@@ -83,10 +93,34 @@ export default function Product() {
                 />
     })
 
+    
+    const addToCart = id => {
+        setAddedToCart(true)
+        setTimeout(() => {
+            setAddedToCart(false)
+        }, 1500);
+        const holder = []
+        const item = data.find(prod => {
+            if (prod.id === Number(id)) {
+                return prod
+            }
+        })
+
+        for (let i = 0; i < count; i++) {
+            holder.push(item)
+        }
+ 
+        setUserCart(prev => {
+            return [...prev, holder].flat()
+        })
+    }
+    
+    console.log(userCart)
     return (
         <section className="specific-prod-container">
             <ScrollToTop/>
             <Link to={pathname} className="back-btn">Go back</Link>
+            <div className="top-flex">
             <div className="prod-img-container">
                 <picture className="picture-container">
                     <source 
@@ -107,7 +141,8 @@ export default function Product() {
                 </picture>
             </div>
             
-            {product.new && <p className="new-product left-align">new product</p>}
+            <div className="right-container">
+                {product.new && <p className="new-product left-align">new product</p>}
             <div className="specific-product-info">
                 <h3 className="prod-name left-align">{name}</h3>
                 <p className="product-desc left-align">{description}</p>
@@ -125,9 +160,24 @@ export default function Product() {
                         <p className="quantity">{count}</p>
                         <button className="quant-btn" onClick={increment}>+</button>
                     </div>
-                    <button className="add-to-cart">Add to cart</button>
+                    {addedTransition((style, item) => {
+                        return item ? 
+                            <animated.div
+                                style={style}
+                                className='added-to-cart'
+                            >
+                                <p>Item added</p>
+                            </animated.div>
+                            :
+                            ''
+                    })}
+                    <button className="add-to-cart" onClick={() => addToCart(id)}>Add to cart</button>
                 </div>
+            </div> 
             </div>
+           
+            </div>
+            
 
             <div className="prod-features">
                 <h3>feactures</h3>
@@ -151,39 +201,42 @@ export default function Product() {
             <div className="product-pic-container">
                  <picture  className="product-shot-container">
 
-                <div className="prod-shots">
-                    <source 
-                        media="(min-width: 650px)" 
-                        srcSet={gallery.first.tablet}
-                        className="product-shots-source"
-                        />
-                    <source 
-                        media="(min-width: 1024px)" 
-                        srcSet={gallery.first.desktop}
-                        className="product-shots-source"
-                        />
-                    <img 
-                        src={gallery.first.mobile} alt=""
-                        className="product-shots"
-                        />   
+                <div className="product-shots-inner">
+                    <div className="prod-shots">
+                        <source 
+                            media="(min-width: 650px)" 
+                            srcSet={gallery.first.tablet}
+                            className="product-shots-source"
+                            />
+                        <source 
+                            media="(min-width: 1024px)" 
+                            srcSet={gallery.first.desktop}
+                            className="product-shots-source"
+                            />
+                        <img 
+                            src={gallery.first.mobile} alt=""
+                            className="product-shots"
+                            />   
+                    </div>
+                    
+                    <div className="prod-shots">
+                            <source 
+                                media="(min-width: 650px)" 
+                                srcSet={gallery.second.tablet}
+                                className="product-shots-source"
+                                />
+                            <source 
+                                media="(min-width: 1024px)" 
+                                srcSet={gallery.second.desktop}
+                                className="product-shots-source"
+                            />
+                            <img 
+                                src={gallery.second.mobile} alt="" 
+                                className="product-shots"
+                            />
+                    </div>
                 </div>
                 
-               <div className="prod-shots">
-                    <source 
-                        media="(min-width: 650px)" 
-                        srcSet={gallery.second.tablet}
-                        className="product-shots-source"
-                        />
-                    <source 
-                        media="(min-width: 1024px)" 
-                        srcSet={gallery.second.desktop}
-                        className="product-shots-source"
-                    />
-                    <img 
-                        src={gallery.second.mobile} alt="" 
-                        className="product-shots"
-                    />
-               </div>
                     
                 <div className="prod-shots">
                     <source 
@@ -204,6 +257,7 @@ export default function Product() {
             </picture>
             </div>
            
+           <h3 className="suggested-tag">You may also like</h3>
            <div className="suggested-main-container">
              {suggestedProd}
            </div>

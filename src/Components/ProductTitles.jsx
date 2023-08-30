@@ -3,7 +3,7 @@ import data from "../data";
 import { Link } from "react-router-dom";
 
 
-export default function ProductTitles() {
+export default function ProductTitles({className}) {
     const [isIntersecting, setIsIntersecting] = useState(false)
     const [imgIntersecting, setImgIntersecting] = useState(false)
 
@@ -11,19 +11,19 @@ export default function ProductTitles() {
         {
             id: 1,
             title: 'headphones',
-            image: '../../assets/shared/desktop/image-category-thumbnail-headphones.png',
+            image: 'https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-category-thumbnail-headphones.png?alt=media&token=9b16868e-4912-4ab6-9194-7a53313c5ff0',
             route: '/products/headphones'
         },
         {
             id: 2,
             title: 'speakers',
-            image: '../../assets/shared/desktop/image-category-thumbnail-speakers.png',
+            image: 'https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-category-thumbnail-speakers.png?alt=media&token=f6f3d84b-cf22-4aa1-b92d-908e307271da',
             route: '/products/speakers'
         },
         {
             id: 3,
             title: 'earphones',
-            image: '../../assets/shared/desktop/image-category-thumbnail-earphones.png',
+            image: 'https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fshared%2Fdesktop%2Fimage-category-thumbnail-earphones.png?alt=media&token=7312315f-26f0-4806-acb9-0ca868bfa537',
             route: '/products/earphones'
         }
     ]
@@ -61,7 +61,7 @@ export default function ProductTitles() {
     const titlePageEl = titleProducts.map((product, index) => {
         const {image, title, route} = product
         return (
-            <div className="category-wrapper">
+            <div className="category-wrapper" key={index}>
             <img src={image} alt="" className={`category-img prod-img category-${index}`} />
             <div className="category-container observed" key={product.id}>
                 
@@ -80,7 +80,7 @@ export default function ProductTitles() {
     })
 
     return (
-        <section className="main-categorys-container">
+        <section className={`main-categorys-container ${className ? className : ''}`}>
             {titlePageEl}
         </section>
     )

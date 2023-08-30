@@ -42,8 +42,8 @@ export default function ProductPage({data, category}) {
     const prodEl = data.map(item => {
         const {description, categoryImage, name, id} = item
         return (
-            <div>
-                <div  className="prod-img-container">
+            <div key={id}>
+                <div  className="prod-img-container category-img-container">
                     <picture className="picture-container">
                         <source 
                             media="(min-width: 650px)"

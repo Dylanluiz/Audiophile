@@ -106,7 +106,7 @@ export default function Account() {
 
             <button onClick={uploadFile}>{isLoading ?
                 <div className="loading-svg">
-                    <img src="../../assets/Rolling-1s-200px.svg" alt="" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2FRolling-1s-200px.svg?alt=media&token=fa24a331-dae2-429e-9d8b-f7e585ef3a97" alt="" />
                 </div>
                 :
                 "Save changes"
