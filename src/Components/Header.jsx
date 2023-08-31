@@ -66,7 +66,7 @@ export default function Header() {
             </div>
             </div>
         </header>
-        <animated.div style={props} className='height-chaning-drop-down'>
+        <animated.div style={props} className='height-chaning-drop-down id-change-1'>
         {dropDownTransition((style, item) => {
             return item ? 
                 <animated.div

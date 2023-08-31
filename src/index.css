@@ -49,12 +49,15 @@ header {
 }
 
 .height-chaning-drop-down {
-    background-color: #FFF;
     position: absolute;
-    top: 100px;
+    top: 90px;
     max-height: 600px;
     width: 100%;
     z-index: 2;
+}
+
+.id-change-1 {
+    background-color: transparent;
 }
 
 .drop-down-main-container {
@@ -79,6 +82,8 @@ header {
     flex-direction: column;
     gap: 60px;
     padding: 60px 24px;
+    box-shadow: 0px 0px 10px #000;
+    background-color: #FFF;
 }
 
 .drop-down-img-background {
@@ -2434,6 +2439,10 @@ input:focus, input:active {
         background-color: #FFF; 
     }
 
+    .backdrop-drop-down {
+        bottom: -250px;
+        background-color: transparent;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -2742,7 +2751,7 @@ input:focus, input:active {
 
     .backdrop-drop-down {
         bottom: -250px;
-
+        background-color: transparent;
     }
 }
 
@@ -2758,6 +2767,7 @@ input:focus, input:active {
     }
 
     .backdrop-drop-down {
+        background-color: transparent;
         height: 100vh;
         bottom: -950px;
     }

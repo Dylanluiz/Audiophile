@@ -43,7 +43,7 @@ export default function DropDown() {
     const titlePageEl = titleProducts.map((product, index) => {
         const {image, title, route} = product
         return (
-                <div className="drop-down-img-background" key={index}>
+                <div className={`drop-down-img-background`} key={index}>
                     <img src={image} alt="" className="drop-down-img"/>
 
                     <div className="drop-down-link-section">
