@@ -1,4 +1,4 @@
-import React, {useContext, useRef, useState} from "react";
+import React, {useContext, useEffect, useRef, useState} from "react";
 import { animated, useTransition } from "@react-spring/web";
 import { signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 import { auth } from "../../firebase";
@@ -13,6 +13,9 @@ export default function Login() {
     const navigator = useNavigate()
     const [isLoading, setIsLoading] = useState(false)
     const apiKey = 'firebase:authUser:AIzaSyBPIoj-qEYzyrTSNVbsbv4d6wiEwePw29U:[DEFAULT]'
+    const [errorMessageHolder, setErrorMessageHolder] = useState('')
+    const [isError, setIsError] = useState(null)
+    const isFirstRender = useRef(true)
 
     const revealPassword = () => {
         setShowPassword(prev => !prev)
@@ -21,7 +24,7 @@ export default function Login() {
     const monitorAuthState = async () => {
         onAuthStateChanged(auth, user => {
             if (user) {
-                console.log(user)
+                
                 navigator('/')
             } else {
                 navigator('/login')
@@ -43,15 +46,30 @@ export default function Login() {
                     }
                 })
                 monitorAuthState()
-                console.log(userSession)
+                
                 setIsLoading(false)
             })
             .catch((error) => {
                 const errorCode = error.code
                 const errorMessage = error.message
-                console.log(errorMessage)
+                setErrorMessageHolder(prev => prev = errorMessage)
+                setIsLoading(false)
             })
     }
+
+    useEffect(() => {    
+        if (isFirstRender.current) {
+            isFirstRender.current = false
+            return
+        } else {
+            setIsError(true)
+            setTimeout(() => {
+                setIsError(false)
+                setErrorMessageHolder('')
+            }, 5000)
+        }
+        return () => {}
+    }, [errorMessageHolder])
     
     return (
         <section className="login-container">   
@@ -88,7 +106,7 @@ export default function Login() {
                 </div>
                 : 'Login'}</button>
             </form>
-
+            {isError && <p className="errorHolder" style={errorMessageHolder !== '' ? {padding: '5px 10px'} : {}}>{errorMessageHolder}</p>}
         </section>
     )
 }

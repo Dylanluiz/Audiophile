@@ -27,7 +27,7 @@ export default function Product() {
             }
         }).filter(item => item !== undefined)[0]
    
-        console.log(location)
+       
     const {
         name, 
         price, 

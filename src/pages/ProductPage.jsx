@@ -35,8 +35,6 @@ export default function ProductPage({data, category}) {
         return () => observer.disconnect()
     }, [location.pathname])
 
-    console.log('hello')
-
     const prodEl = data.map((item, index) => {
         const {description, categoryImage, name, id} = item
         return (

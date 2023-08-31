@@ -58,8 +58,6 @@ export default function Account() {
         }})
     }
 
-    console.log(userInfo)
-
     return (
         <section className="account-info">
             <h2 className="account-greeting">Hello, {createUser?.displayName}</h2>

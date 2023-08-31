@@ -380,6 +380,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 48px 0px;
+    position: relative;
 }
 
 .login-container {
@@ -2065,6 +2066,21 @@ input:focus, input:active {
     background: transparent;
   }
 
+  /* error */
+
+.errorHolder {
+    background-color: #D87D4A;
+    height: fit-content;
+    color: #FFFFFF;
+    font-size: 15px;
+    width: 60%;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px black;
+    margin-top: 50px;
+    top: -90px;
+}
+
 /* sizing */
 
 @media (min-width: 760px) {
@@ -2713,11 +2729,6 @@ input:focus, input:active {
     }
 
     /* drop down */
-
-    .height-chaning-drop-down {
-    
-    
-    }   
 
     .drop-down-inner-wrapper {
         box-sizing: border-box;

@@ -5,7 +5,7 @@ export default function LargeProductCard() {
     const [isIntersecting, setIsIntersecting] = useState(false)
     const [isImgIntersecting, setImgIntersecting] = useState(false)
     const location = useLocation()
-    console.log(location)
+
     useEffect(() => {
         const observer = new IntersectionObserver(
             (cards) => {

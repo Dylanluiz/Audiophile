@@ -14,6 +14,9 @@ export default function Signup() {
     const displayName = useRef(null)
     const passwordCheck = useRef(null)
     const [passwordMatchError, setPasswordMatchError] = useState(true)
+    const [errorMessageHolder, setErrorMessageHolder] = useState('')
+    const [isError, setIsError] = useState(null)
+    const isFirstRender = useRef(true)
     const passwordTransition = useTransition(passwordMatchError, {
         from: {opacity: 0} ,
         enter: {opacity: 1},
@@ -58,6 +61,7 @@ export default function Signup() {
                 } catch (error) {  
                     const errorCode = error.code
                     const errorMessage = error.message
+                    setErrorMessageHolder(errorMessage)
                     setIsLoading(false)
                 }
             }
@@ -71,6 +75,16 @@ export default function Signup() {
     const passwordErrorStyleText = {
         color: "red"
     }
+
+    useEffect(() => {    
+        setIsError(true)
+        const timer = setTimeout(() => {
+            setIsError(false)
+            setErrorMessageHolder('')
+        }, 5000)
+   
+        return () => clearTimeout(timer)
+    }, [errorMessageHolder])
 
     return (
         <section className="signup-container">
@@ -164,6 +178,7 @@ export default function Signup() {
                 : 'Sign up'}</button>
             </form>
             <Link to="/login" className="login-direct">Login in</Link>
+            {isError && <p className="errorHolder" style={errorMessageHolder !== '' ? {padding: '5px 10px'} : {}}>{errorMessageHolder}</p>}
         </section>
     )
 }
