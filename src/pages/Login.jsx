@@ -73,7 +73,7 @@ export default function Login() {
     
     return (
         <section className="login-container">   
-            <h2>Login in</h2>
+            <h2>Login</h2>
 
             <form action="" className="login-form" onSubmit={onLogin}>
                 <div className="email-container">

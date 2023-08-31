@@ -130,7 +130,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    
+    cursor: pointer;
 }
 
 .hamburger-section {
@@ -462,6 +462,7 @@ footer {
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .signup-form label, 
@@ -1428,6 +1429,7 @@ input[type='file'] {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .user-cart-main {
