@@ -5,14 +5,11 @@ import { Link, useLocation } from "react-router-dom";
 
 
 export default function ProductPage({data, category}) {
-    const [isIntersecting, setIsIntersecting] = useState(false)
     const location = useLocation()
-
-    console.log(location)
 
     useEffect(() => {
         const observer = new IntersectionObserver(
-            (items) => {
+            items => {
                 items.forEach(item => {
                     if (item.isIntersecting) {
                         item.target.classList.add('grow-in')
@@ -22,8 +19,7 @@ export default function ProductPage({data, category}) {
         )
         document.querySelectorAll('.product-img').forEach(item => {observer.observe(item)})
         return () => observer.disconnect()
-        }, [isIntersecting])
-
+        }, [location.pathname])
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -37,24 +33,29 @@ export default function ProductPage({data, category}) {
         )
         document.querySelectorAll('.prod-desc').forEach(item => {observer.observe(item)})
         return () => observer.disconnect()
-    }, [isIntersecting])
+    }, [location.pathname])
 
-    const prodEl = data.map(item => {
+    console.log('hello')
+
+    const prodEl = data.map((item, index) => {
         const {description, categoryImage, name, id} = item
         return (
-            <div key={id}>
+            <div key={id} className={`product-main-container-prod-page product-id-${index}`}>
                 <div  className="prod-img-container category-img-container">
                     <picture className="picture-container">
-                        <source 
-                            media="(min-width: 650px)"
-                            srcSet={categoryImage.tablet}
-                            className="product-img"
-                        />
+
                         <source 
                             media="(min-width: 1024px)"
                             srcSet={categoryImage.desktop}
                             className="product-img"
                         />
+
+                        <source 
+                            media="(min-width: 650px)"
+                            srcSet={categoryImage.tablet}
+                            className="product-img"
+                        />
+                       
                         <img 
                             src={categoryImage.mobile}
                             className="product-img"
@@ -76,6 +77,7 @@ export default function ProductPage({data, category}) {
             </div>
         )
     })
+
 
     return (
         <section className="category-page">

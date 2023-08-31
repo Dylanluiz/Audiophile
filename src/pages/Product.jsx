@@ -21,15 +21,13 @@ export default function Product() {
         leave: {opacity: 0}
     })
 
-
     const product = data.map(prod => {
-        if (prod.id === Number(id)) {
-            return prod
-        }
-    }).filter(item => item !== undefined)[0]
-
-    console.log(product)
-
+            if (prod.id === Number(id)) {
+                return prod
+            }
+        }).filter(item => item !== undefined)[0]
+   
+        console.log(location)
     const {
         name, 
         price, 
@@ -114,8 +112,7 @@ export default function Product() {
             return [...prev, holder].flat()
         })
     }
-    
-    console.log(userCart)
+
     return (
         <section className="specific-prod-container">
             <ScrollToTop/>
@@ -123,16 +120,19 @@ export default function Product() {
             <div className="top-flex">
             <div className="prod-img-container">
                 <picture className="picture-container">
-                    <source 
-                        media='(min-width: 650px)' 
-                        srcSet={image.tablet}
-                        className="product-img"
-                        />
+
                     <source 
                         media='(min-width: 1024px)' 
                         srcSet={image.desktop}
                         className="product-img"
                         />
+
+                    <source 
+                        media='(min-width: 650px)' 
+                        srcSet={image.tablet}
+                        className="product-img"
+                        />
+                    
                     <img 
                         src={image.mobile} 
                         alt="" 
@@ -178,25 +178,27 @@ export default function Product() {
            
             </div>
             
+            <div className="feat-in-box-wrapper">
+                <div className="prod-features">
+                    <h3>features</h3>
+                    <p>{features}</p>
+                </div>
 
-            <div className="prod-features">
-                <h3>feactures</h3>
-                <p>{features}</p>
-            </div>
-
-            <div className="in-the-box">
-                <h3>in the box</h3>
-                <div className="item-container">
-                    {includes.map(item => {
-                        return (
-                            <div className="item-in-box">
-                                <p className="item-quantity">{item.quantity}x</p>
-                                <p className="item">{item.item}</p>
-                            </div>
-                        )
-                    })}
+                <div className="in-the-box">
+                    <h3>in the box</h3>
+                    <div className="item-container">
+                        {includes.map(item => {
+                            return (
+                                <div className="item-in-box">
+                                    <p className="item-quantity">{item.quantity}x</p>
+                                    <p className="item">{item.item}</p>
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
             </div>
+           
 
             <div className="product-pic-container">
                  <picture  className="product-shot-container">

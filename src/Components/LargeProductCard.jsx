@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function LargeProductCard() {
     const [isIntersecting, setIsIntersecting] = useState(false)
     const [isImgIntersecting, setImgIntersecting] = useState(false)
-
+    const location = useLocation()
+    console.log(location)
     useEffect(() => {
         const observer = new IntersectionObserver(
             (cards) => {
@@ -35,7 +36,8 @@ export default function LargeProductCard() {
     }, [isImgIntersecting])
 
     return (
-        <section className="speaker-large-card">
+        <div className="speaker-large-wrapper">
+           <section className="speaker-large-card">
             <img 
                 src="https://firebasestorage.googleapis.com/v0/b/audiophile-78916.appspot.com/o/data-images%2Fremoved-bg-speaker.png?alt=media&token=a440b07d-d7a5-4a41-bac5-fa9551a3745a" 
                 alt="large speaker img and product link" 
@@ -44,8 +46,10 @@ export default function LargeProductCard() {
             <div className="speaker-inner-wrapper card-observed">
             <h3 className="speaker-name-large">ZX9 SPEAKER</h3>
             <p className="speaker-desc-large">Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
-            <Link className="speaker-link-large">see product</Link>
+            <Link to='/products/speakers/6' className="speaker-link-large" state={{pathname: location.pathname}}>see product</Link>
             </div>
-        </section>
+        </section> 
+        </div>
+        
     )
 }

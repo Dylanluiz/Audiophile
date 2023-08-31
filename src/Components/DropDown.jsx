@@ -36,6 +36,10 @@ export default function DropDown() {
         }
     ]
 
+    const closeMenu = () => {
+        setIsMenuOpen(false)
+    }
+
     const titlePageEl = titleProducts.map((product, index) => {
         const {image, title, route} = product
         return (
@@ -45,7 +49,7 @@ export default function DropDown() {
                     <div className="drop-down-link-section">
                         <p>{title}</p>
                         <div className="shop">
-                            <Link to={route}>SHOP</Link>
+                            <Link to={route} onClick={closeMenu}>SHOP</Link>
                             <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" fill="none"><path d="M1.32178 1L6.32178 6L1.32178 11" stroke="#D87D4A" strokeWidth="2"></path></svg>
                         </div>
                     </div>

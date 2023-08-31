@@ -82,7 +82,7 @@ export default function CartSummary({cart}) {
                 </div>
                 <div className="tc-inner">
                     <p className="tag">vat (included)</p>
-                    <p className="price">$ {vat}</p>
+                    <p className="price">$ {vat.toFixed(2)}</p>
                 </div>
                 <div className="tc-inner">
                     <p className="tag">grand total</p>
