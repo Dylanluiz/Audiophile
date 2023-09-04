@@ -26,6 +26,7 @@ export default function App() {
   const [noItems, setNoItems] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [showCheckout, setShowCheckout] = useState(false)
+  const [successLogOut, setSuccessLogOut] = useState(false)
 
   // useEffect(() => {
   //   const cart = localStorage.getItem('cart')
@@ -80,7 +81,9 @@ export default function App() {
             setIsMenuOpen,
             isMenuOpen,
             showCheckout,
-            setShowCheckout
+            setShowCheckout,
+            successLogOut, 
+            setSuccessLogOut
           }
 
   const docBody = document.documentElement

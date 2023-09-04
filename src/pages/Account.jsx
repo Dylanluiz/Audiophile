@@ -3,12 +3,14 @@ import { UserContext } from "../App";
 import { storageRef, imageRef } from "../../firebase";
 import { auth } from "../../firebase";
 import { ref, getDownloadURL, uploadBytes } from "firebase/storage";
-import { updateProfile } from "firebase/auth";
+import { updateProfile, signOut } from "firebase/auth";
+import { useNavigate } from "react-router";
 
 export default function Account() {
-    const {createUser, setUserUpdate} = useContext(UserContext)
+    const {createUser, setUserUpdate, setSuccessLogOut} = useContext(UserContext)
     const [isLoading, setIsLoading] = useState(false)
     const [userInfo, setUserInfo] = useState(null)
+    const navigator = useNavigate()
     let fileItem = useRef(null)
     let fileName = useRef(null)
     let newImageRef = useRef(null)
@@ -43,6 +45,13 @@ export default function Account() {
                 })
                 
           uploadBytes()
+    }
+
+    const handelLogOut = () => {
+        signOut(auth).then(() => {
+            navigator('/')
+            setSuccessLogOut(true)
+        })
     }
 
     useEffect(() => {
@@ -109,7 +118,7 @@ export default function Account() {
                 :
                 "Save changes"
             }</button>
-            
+            <button onClick={handelLogOut}>Log-out</button>
         </section>
       
     )
